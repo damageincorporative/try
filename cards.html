@@ -3,7 +3,7 @@
 	<style>
 	body{
 		background-color: #f9f9f9;
-		font-family: "OCR A Std";
+		font-family: "Lucida Console", Monaco, monospace;
 		font-size: 15px;
 		text-align: center;
 	}
@@ -17,7 +17,7 @@
 	}
 	.head{
 		text-align: center;
-		font-family: "Courier new";
+		font-family: "Lucida Console", Monaco, monospace;
 		font-size: 24px;
 		font-weight: bold;
 		padding:20px;
@@ -39,9 +39,6 @@
 		color:#3869b4;
 		font-size: 20px;
 	}
-	iframe{
-		border-radius: 10px;
-	}
 	table{
 		padding:20px;
 		width:100%;
@@ -57,9 +54,27 @@
 		font-size: 14;
 		text-align: center;
 	}
+	.im{
+		max-width:700px;
+	}
+	.header{
+		height: auto;
+		
+		border-bottom: solid 5px brown;
+		text-align: center;
+		font-size: 40px;
+		display:block;
+		position: -webkit-sticky;
+		position:sticky;
+		top:0;
+		background-color: #f9f9f9;
+	}
 </style>
 </head>
 <body>
+	<div class="header">
+		Cards
+	</div>
 	<div class="card">
 		<div class="head">
 			Card #1
@@ -139,8 +154,10 @@ Left me with life in hell
 		</div>
 		
 	</div>
-		<div class="card">
-			<img scr="https://cdn.dribbble.com/users/433411/screenshots/2597041/mkbhd_logo_001.gif" alt="mkbhd @ youtube" width=200px height=200px>
+	<div class="card">
+		<div class="im">
+			<img src="mkbhd_logo_001.gif" alt="lmao" width=700px>
+		</div>
 		<div class="head">
 			Card #3
 		</div>
